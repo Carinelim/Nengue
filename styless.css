@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(140, 216, 140);
+    
+}
+
+.nengue{
+    text-align: center;
+    display: block;
+
+}
+
+img{
+
+    position: relative;
+    top: 50px;
+   text-align: center;
+   border-radius: 50px;
+}
+
+h1{
+    margin: 200px;
+text-align: center;
+text-transform: uppercase;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+    img{
+margin: 0;
+display: block;
+max-width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+        color: black;
+        word-wrap: break-word;
+        letter-spacing: 5px;
+        background-color: white;
+        margin: 70px;
+        padding: 10px;
+        
+    }
+}
